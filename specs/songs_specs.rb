@@ -7,6 +7,9 @@ require_relative('../songs')
 class TestSongs < Minitest::Test
 
   def setup
+
+      # test song - https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+
     @song1 = Song.new("Wonderwall", "Oasis")
     @song2 = Song.new("Song 2", "Blur")
     @song3 = Song.new("Let it go", "Frozen")
